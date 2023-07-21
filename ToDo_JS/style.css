@@ -15,7 +15,7 @@ body {
   justify-content: center;
   text-align: center;
   background-color: white;
-  position: absolute;
+  position: fixed;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -200,4 +200,31 @@ button{
   border: none;
   background-color: black;
 }
-
+@media screen and (min-width:250px) and (max-width:500px){
+  .box{
+    position: fixed;
+    width: 250px;
+   margin-top: 100px;
+  }
+  .cheit{
+   margin: 10px 35px;
+  }
+}
+@media screen and (min-width:500px) and (max-width:1000px){
+  .box{
+    position: fixed;
+    width: 250px;
+    margin-top: 100px;
+  }
+  .cheit{
+    margin: 10px 70px;
+   }
+}
+@media screen and (min-width:1000px) and (max-width:1500px){
+  .box{
+    margin-top: 175px;
+  }
+  .cheit{
+    margin: 10px 320px;
+   }
+}
