@@ -18,12 +18,16 @@
     />
   </head>
   <body>
+    <div class="main" class="task-modal">
     <div id="single-task-modal" class="single-task-modal">
       <div class="topBar">
-        <button onclick="ToggleSingelTaskModal()">Back</button>
+        <button onclick="ToggleSingelTaskModal()"><h2 style="color: white;">Back</h2></button>
         <h1 id="single-task-name"></h1>
         <!-- <div id="box"></div> -->
-        <button>Add New</button>
+        <button>
+          <img src="./plus.png" height="30px" width="30px" style="border-radius: 15px;" id="add-option1">
+        </button>
+        
         <div id="box"></div>
       </div>
     </div>
@@ -76,6 +80,7 @@
       </div>
      
     </div>
+  </div>
   </body>
   <script src="./app.js"></script>
   <script src="https://kit.fontawesome.com/430b983362.js" crossorigin="anonymous"></script>
